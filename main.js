@@ -27,7 +27,7 @@ Titleco.addEventListener("mouseover",(eo)=>{
   if(count>mydescription.length){
       clearInterval( stopAutofun)
   }}
-   const stopAutofun= setInterval(writedes , 200);
+  const stopAutofun= setInterval(writedes , 200);
 
            // change video by Arrow
 
