@@ -18,6 +18,27 @@ Titleco.addEventListener("mouseover",(eo)=>{
     const random=Math.round( Math.random() * 360)
     Title.style.color=`hsl(${random},44%,50%)`
   });
+//change color for sectionbg
+const sectionbg = document.getElementById("sectionbg");
+const Section=document.getElementById("section");
+const section=document.getElementById("section2");
+
+
+sectionbg.addEventListener("mouseover",(eo)=>{
+  const random=Math.round( Math.random() * 360)
+Section.style.backgroundColor=`hsl(${random},60%,80%)`
+section.style.backgroundColor=`hsl(${random},80%,50%)`
+
+
+})
+
+
+
+
+
+
+
+
             //autowriting for descriotion me
   let mydescription="I'm A Front End Developer "
   let count=1;
