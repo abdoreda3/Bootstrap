@@ -55,7 +55,7 @@ section{
     .main {
         min-height: 100vh;
         align-items: center;
-       background-image:url(/image/image6.jpg);
+     background: url(../image/image6.jpg);
        background-repeat:no-repeat ;
        background-size: cover;
         background-position: fixed;
